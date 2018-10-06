@@ -304,7 +304,7 @@ find_program(PROTOBUF_PROTOC_EXECUTABLE
 mark_as_advanced(PROTOBUF_PROTOC_EXECUTABLE)
 
 
-include(${CMAKE_CURRENT_LIST_DIR}/FindPackageHandleStandardArgs.cmake)
+include(FindPackageHandleStandardArgs)
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(Protobuf DEFAULT_MSG
     PROTOBUF_LIBRARY PROTOBUF_INCLUDE_DIR)
 
